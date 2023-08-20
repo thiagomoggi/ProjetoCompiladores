@@ -1,0 +1,17 @@
+/GramaticaBaseListener.class
+/GramaticaLexer.class
+/GramaticaListener.class
+/GramaticaParser$BlocoContext.class
+/GramaticaParser$CmdContext.class
+/GramaticaParser$CmdEscritaContext.class
+/GramaticaParser$CmdExprContext.class
+/GramaticaParser$CmdIfContext.class
+/GramaticaParser$CmdLeituraContext.class
+/GramaticaParser$CmdWhileContext.class
+/GramaticaParser$DeclaraContext.class
+/GramaticaParser$DeclaracaoContext.class
+/GramaticaParser$ExprContext.class
+/GramaticaParser$ProgramContext.class
+/GramaticaParser$TermoContext.class
+/GramaticaParser$TypeContext.class
+/GramaticaParser.class

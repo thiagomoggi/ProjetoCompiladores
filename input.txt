@@ -1,0 +1,11 @@
+programa
+
+declare numero a;
+declare texto b;
+a := 1;
+b := "abc";
+
+escreva(a);
+escreva(b);
+
+fimprog;
