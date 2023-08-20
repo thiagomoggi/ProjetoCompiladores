@@ -10,7 +10,7 @@ import org.antlr.v4.runtime.CommonTokenStream;
 public class MainClass {
     public static void main(String[] args) {
         try {
-        	GramaticaLexer lexer  = new GramaticaLexer(CharStreams.fromFileName("input.txt"));
+        	GramaticaLexer lexer  = new GramaticaLexer(CharStreams.fromFileName("input.isi"));
             CommonTokenStream tokenStream = new CommonTokenStream(lexer);
             GramaticaParser parser = new GramaticaParser(tokenStream);
             parser.program();
