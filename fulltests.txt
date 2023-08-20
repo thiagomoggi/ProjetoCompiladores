@@ -1,0 +1,116 @@
+Abaixo estão todos os testes usados no video de apresentação!
+
+Possui 2 tipos de variáveis:
+programa
+declare numero a;
+declare texto b;
+fimprog; 
+------------------------------------------- 
+Possui a estrutura If.. else:
+programa
+declare numero a,b;
+declare texto t1,t2,t3;
+a := 1;
+b := 2;
+t1 := "A maior que B";
+t2 := "B maior que A";
+t3 := "sao equivalentes";
+
+se(a>b){
+    escreva(t1);
+}
+senao{
+    se(b>a){
+        escreva(t2);
+    }
+    senao{
+        escreva(t3);
+    }
+}
+fimprog;
+----------------------------------------
+Possui estrutura de controle while/do while:
+programa
+declare texto t1;
+declare numero n1;
+t1 := "compiladores forever";
+n1 := 3;
+enquanto(n1>0){
+    escreva(t1);
+}
+fimprog; 
+--------------------------------------------------------
+Operações Aritméticas executadas corretamente:
+
+programa
+declare numero a,b,soma,subtracao,divisao,multiplicacao,raizquad,potencia;
+a := 10;
+b := 5;
+soma := a+b;
+escreva(soma);
+subtracao := b-a;
+escreva(subtracao);
+divisao := a / b;
+escreva(divisao);
+multiplicacao := a * b;
+escreva(multiplicacao);
+raizquad := raiz 5; 
+escreva(raizquad);
+potencia := a**a;
+escreva(potencia);
+
+fimprog;
+---------------------------------------------------------------------------------------------- 
+Atribuições realizadas corretamente:
+programa
+declare numero a;
+declare texto c;
+a := 1;
+c := "abc";
+fimprog; 
+---------------------------------------------------------------------------------------------------- 
+Possui operações de Entrada e Saída:
+programa
+declare numero a;
+declare texto b;
+leia(b);
+escreva(b);
+leia(a);
+escreva(a);
+fimprog;
+--------------------------------------------------------------------------------------------------- 
+Aceita números decimais:
+programa
+declare numero a;
+a := 1.1111;
+escreva(a);
+fimprog; 
+-----------------------------------------------------------------------------------------------------] 
+Verificar se a variável já foi previamente declarada:
+programa
+
+a := 100;
+
+fimprog; 
+-----------------------------------------------------------
+Verificar se a variável foi declarada e não foi usada:
+
+programa
+
+declare texto a,b;
+
+b := "texto b usado";
+
+escreva(b);
+
+fimprog;
+-----------------------------------------------------------
+Verificar se uma variável está sendo usada sem ter valor inicial:
+
+programa
+
+declare numero a,b;
+
+escreva (a);
+escreva (b);
+fimprog; 
